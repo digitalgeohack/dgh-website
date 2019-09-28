@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com/"
+baseurl = "https://digitalgeohack.github.io/"
 languageCode = "en-us"
 title = "DigitalGeoHack"
 theme = "type"
@@ -14,7 +14,7 @@ paginate = 10
 
 [params]
 	author = "John Armitage"
-	description = "Digital Geoscience Hackathon Paris 8/9th November" 
+	description = "Digital Geoscience Hackathon Paris 15/16th November" 
 	# The keywords will be added as a meta tag. Delimit them with a comma.
 	keywords = ""
 	# Either show custom avatar on the top
@@ -23,11 +23,11 @@ paginate = 10
 	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = ""
 
-	headerText = "Digital Geoscience Hackathon Paris 8/9th November"
+	headerText = "Digital Geoscience Hackathon Paris 15/16th November"
 	# To add a header background to the main site, save your image under static/img/yourimage.png
 	# and assign "yourimage.png" to the headerImage variable. If no image path is provided, a
 	# orange background will be shown instead.
-	headerImage = ""
+	headerImage = "shetland.png"
 	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
 	# Set title for Hugo's opengraph template

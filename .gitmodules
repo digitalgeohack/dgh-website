@@ -1,7 +1,3 @@
 [submodule "themes/type"]
 	path = themes/type
 	url = https://github.com/digitalcraftsman/hugo-type-theme.git
-[submodule "public"]
-	path = public
-	url = https://github.com/digitalgeohack/digitalgeohack.github.io.git
-	branch = master
