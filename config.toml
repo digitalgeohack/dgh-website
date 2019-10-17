@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://digitalgeohack.github.io"
+baseURL = "https://digitalgeohack.github.io"
 languageCode = "en-US"
 title = "Split - HTML Template Demo"
 theme = "hugo-split-theme"
