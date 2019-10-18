@@ -16,10 +16,10 @@ googleAnalytics = ""
   # Metadata for search engines and social sharing
   author = "John Armitage"
   description = "Digital Geoscience Hackathon"
-  shareImage = "images/logo_idea.jpg"
+  shareImage = "laptop-code" # icon test
 
-  # Favicon
-  #favicon = "favicon.ico"
+  # Favicon (struggling to change it)
+  favicon = "laptopcon.ico"
 
   # Section - Visual
   [params.visual]

@@ -8,8 +8,15 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder
-cd public
+# Go To github.io folder
+cd ../digitalgeohack.github.io/
+
+# remove last website
+rm -rf *
+
+# Move public
+mv ../dgh-website/public/* .
+rm -r ../dgh-website/public
 
 # Add changes to git.
 git add .
@@ -22,4 +29,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
+git push origin
